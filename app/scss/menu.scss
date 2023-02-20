@@ -1,7 +1,7 @@
 .menu {
 	&__lock {overflow: hidden;}
 	&__icon {
-		@media (max-width: 767px) {
+		@media (max-width: $md) {
 			position: absolute;
 			z-index: 2;
 			top: 24px;
