@@ -1,0 +1,13 @@
+// Основная сетка
+.container {
+	margin: auto;
+	max-width: $xxl;
+	min-width: $xs;
+	padding: 0 1rem;
+
+	@media (max-width:$xxl) {max-width: $xl;}
+	@media (max-width:$xl) {max-width: $lg;}
+	@media (max-width:$lg) {max-width: $md;}
+	@media (max-width:$md) {max-width: $sm;}
+	@media (max-width:$sm) {max-width: $xs;}
+}
