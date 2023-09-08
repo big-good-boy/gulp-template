@@ -1,4 +1,29 @@
 @font-face {
-	font-family: "Roboto";
-	src: url("../fonts/Roboto-Regular.ttf");
+	font-family: "Lexend Peta";
+	font-weight: normal;
+	src: local("Lexend Peta Regular"),
+		local("LexendPeta-Regular"),
+		url("Lexend Peta-webfont.woff2") format("woff2"),
+		url("Lexend Peta-webfont.woff") format("woff"),
+		url("Lexend Peta-webfont.svg") format("svg");
+}
+
+@font-face {
+	font-family: "Lexend Peta";
+	font-weight: bold;
+	src: local("Lexend Peta Bold"),
+		local("LexendPeta-Bold"),
+		url("Lexend Peta Bold-webfont.woff2") format("woff2"),
+		url("Lexend Peta Bold-webfont.woff") format("woff"),
+		url("Lexend Peta Bold-webfont.svg") format("svg");
+}
+
+@font-face {
+	font-family: "Lexend Peta";
+	font-weight: italic;
+	src: local("Lexend Peta Italic"),
+		local("LexendPeta-Italic"),
+		url("Lexend Peta Italic-webfont.woff2") format("woff2"),
+		url("Lexend Peta Italic-webfont.woff") format("woff"),
+		url("Lexend Peta Italic-webfont.svg") format("svg");
 }
