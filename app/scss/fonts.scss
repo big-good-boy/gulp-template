@@ -1,29 +1,29 @@
 @font-face {
-	font-family: "Lexend Peta";
-	font-weight: normal;
-	src: local("Lexend Peta Regular"),
-		local("LexendPeta-Regular"),
-		url("Lexend Peta-webfont.woff2") format("woff2"),
-		url("Lexend Peta-webfont.woff") format("woff"),
-		url("Lexend Peta-webfont.svg") format("svg");
+	font-family: "Inter";
+	font-weight: 400;
+	src: local("Inter-Regular"),
+		local("Inter-Regular"),
+		url("Inter-Regular.woff2") format("woff2"),
+		url("Inter-Regular.woff") format("woff"),
+		url("Inter-Regular.ttf") format("ttf");
 }
 
 @font-face {
-	font-family: "Lexend Peta";
-	font-weight: bold;
-	src: local("Lexend Peta Bold"),
-		local("LexendPeta-Bold"),
-		url("Lexend Peta Bold-webfont.woff2") format("woff2"),
-		url("Lexend Peta Bold-webfont.woff") format("woff"),
-		url("Lexend Peta Bold-webfont.svg") format("svg");
+	font-family: "Inter";
+	font-weight: 500;
+	src: local("Inter-Medium"),
+		local("Inter-Medium"),
+		url("Inter-Medium.woff2") format("woff2"),
+		url("Inter-Medium.woff") format("woff"),
+		url("Inter-Medium.ttf") format("ttf");
 }
 
 @font-face {
-	font-family: "Lexend Peta";
-	font-weight: italic;
-	src: local("Lexend Peta Italic"),
-		local("LexendPeta-Italic"),
-		url("Lexend Peta Italic-webfont.woff2") format("woff2"),
-		url("Lexend Peta Italic-webfont.woff") format("woff"),
-		url("Lexend Peta Italic-webfont.svg") format("svg");
+	font-family: "Inter";
+	font-weight: 600;
+	src: local("Inter-SemiBold"),
+		local("Inter-SemiBold"),
+		url("Inter-SemiBold.woff2") format("woff2"),
+		url("Inter-SemiBold.woff") format("woff"),
+		url("Inter-SemiBold.ttf") format("ttf");
 }
